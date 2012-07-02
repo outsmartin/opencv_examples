@@ -97,7 +97,7 @@ int main ()
   // Open the file.
   int PYRAMIDE_STUFEN = 3;
   vector<Mat>pyramid;
-  orig = imread("pr5.jpg");
+  orig = imread("./bin/media/pr5.jpg");
 
   cvtColor(orig,grey,CV_RGB2GRAY);
 

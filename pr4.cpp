@@ -8,7 +8,7 @@ using namespace cv;
 
 int main (int argc, char** argv)
 {
-  VideoCapture cap("pr4.avi");
+  VideoCapture cap("./bin/media/pr4.avi");
   if(!cap.isOpened())  // check if we succeeded
     throw "bla";
 

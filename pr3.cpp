@@ -8,7 +8,7 @@ int main ()
 {
   // Open the file.
   Mat orig,image1;
-  orig = imread("pr3.jpg");
+  orig = imread("./bin/media/pr3.jpg");
 
   namedWindow("Image:", CV_WINDOW_AUTOSIZE);
   namedWindow("ROI:", CV_WINDOW_AUTOSIZE);

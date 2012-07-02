@@ -8,7 +8,7 @@ Mat orig,image1;
 int main ()
 {
   // Open the file.
-  orig = imread("pr3.jpg");
+  orig = imread("./bin/media/pr3.jpg");
   image1 = orig.clone();
   namedWindow("Image:", CV_WINDOW_AUTOSIZE);
   namedWindow("ROI:", CV_WINDOW_AUTOSIZE);

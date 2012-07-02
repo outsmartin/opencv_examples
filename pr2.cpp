@@ -7,7 +7,7 @@ int main ()
   using namespace cv;
   // Open the file.
   Mat orig;
-  orig = imread("pr2.jpg");
+  orig = imread("./bin/media/pr2.jpg");
 
   Mat blue( orig.rows, orig.cols, CV_8UC3, Scalar(0,0,0) );
   Mat red( orig.rows, orig.cols, CV_8UC3, Scalar(0,0,0) );

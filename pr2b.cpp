@@ -51,7 +51,7 @@ void onMouse( int event, int x, int y, int flags, void* ){
 int main( int argc, char** argv )
 {
   // Open the file.
-  char* filename = argc >= 2 ? argv[1] : (char*)"pr2.jpg";
+  char* filename = argc >= 2 ? argv[1] : (char*)"./bin/media/pr2.jpg";
   img0 = imread(filename, -1);
   // Is image present?
   if(img0.empty())
